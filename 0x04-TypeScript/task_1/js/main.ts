@@ -26,8 +26,8 @@ class StudentClass implements classInterface{
   lastName: string;
 
   constructor(firstName: string, lastName: string) {
-    this.firstName;
-    this.lastName;
+    this.firstName = firstName;
+    this.lastName = lastName;
   }
 
   workOnHomework():string{
